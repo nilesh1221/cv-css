@@ -1,0 +1,42 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 900;
+    color:rgb(130, 110, 245);
+    
+}
+body{
+    background-color: rgb(228, 228, 228);
+}
+
+p:hover{
+    color:chartreuse;
+}
+p{
+    font-style:italic;
+}
+tr:nth-child(even){
+    background-color: darkgrey;
+}
+p::first-letter{
+    color:red;
+    font-size: 80px;
+
+}
+::selection{
+    color:red;
+    background:yellow;
+}
+
+li{
+    color:red;
+}
+
+ul{
+    list-style-type: square;
+}
+
+table{
+    border:1px solid black;
+    border-collapse:collapse;
+}
